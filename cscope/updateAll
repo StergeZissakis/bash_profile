@@ -1,0 +1,35 @@
+#!/bin/bash
+
+function find_files
+{
+  find $1 -name "*.cc" -print 
+  find $1 -name "*.ccp" -print 
+  find $1 -name "*.cpp" -print 
+  find $1 -name "*.hh" -print 
+  find $1 -name "*.c" -print 
+  find $1 -name "*.h" -print 
+  find $1 -name "*.hpp" -print 
+  find $1 -name "*.inl" -print 
+  find $1 -name "*.ini" -print 
+}
+
+function parse_dir
+{
+  find_files $1 | grep -v -e "\.git" -e ".*\.o" -e ".*\.a" -e ".*\.d" -e "Makefile" -e ".*\/.mk"   >> ~/cscope/cscope.files
+}
+
+cd ~/cscope
+
+rm -f ~/cscope/cscope.files
+
+parse_dir ~/projects/
+
+#if [ "x$1" != "x" ]; then
+#  parse_dir ${HOME}/projects/$1
+#fi;
+
+cscope -b -q -k
+
+
+cd - 2>&1 > /dev/null
+

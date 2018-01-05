@@ -1,0 +1,21 @@
+set ts=8
+set shiftwidth=8
+set nowrap
+syntax on
+set smartindent
+set smarttab
+set cindent
+set noruler
+
+" my mappings
+map <F4> :cn
+map <F5> :cp
+map <F6> :tn
+map <F7> :tp
+set exrc
+
+" taglist
+map <F8> :Tlist
+let Tlist_Use_Right_Window = 1
+
+au BufNewFile,BufRead *.doxygen setfiletype doxygen
