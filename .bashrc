@@ -69,6 +69,8 @@ fi
 
 # Sterge
 set -o vi
+export VISUAL=/usr/bin/vim
+export EDITOR="$VISUAL"
 ulimit -c unlimited
 export PS1='[\u@\h]:\w>'
 
