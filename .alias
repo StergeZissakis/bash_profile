@@ -1,8 +1,9 @@
 #Utils
 alias iv='vim'
 alias ci='vim'
-#alias ll='ls -l'
-#alias la='ls -la'
+alias ll='ls -l'
+alias la='ls -la'
+alias l='ls -lCF'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias pushdir='pushd .'
@@ -14,7 +15,4 @@ alias amke='make'
 alias maek='make'
 
 # some more ls aliases
-alias ll='ls -alF'
-alias la='ls -A'
-alias l='ls -CF'
 

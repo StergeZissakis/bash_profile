@@ -1,0 +1,11 @@
+.*
+!.alias
+!.bashrc
+!.inputrc
+!README.md
+!.screenrc
+!.vim
+!.vimrc
+!.gitignore
+.gitconfig
+.netrc
