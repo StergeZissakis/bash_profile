@@ -120,5 +120,5 @@ fi
 # Sterge
 set -o vi
 ulimit -c unlimited
-
+export EDITOR='vim'
 
