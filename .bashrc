@@ -122,4 +122,6 @@ test -s ~/.alias && . ~/.alias
 #projects
 export PROJECTS_ROOT=~/projects/
 export CSCOPE_DB=~/cscope/cscope.out
+export EDITOR=vim
+export VISUAL=vim
 
