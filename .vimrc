@@ -24,9 +24,6 @@ filetype indent on
 syntax on
 set incsearch
 let Tlist_Ctags_Cmd="/usr/bin/ctags-exuberant"
-"source ~/cscope/cscope_maps.vim
-"cscope add ~/cscope/cscope.out
-"set nu
 set history=500
 set laststatus=2
 set ai
