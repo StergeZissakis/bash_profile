@@ -9,4 +9,5 @@ test -s ~/.alias && . ~/.alias
 
 #projects
 export PROJECTS_ROOT=~/projects/
+set bell-style none
 # Sterge END
