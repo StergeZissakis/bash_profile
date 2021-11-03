@@ -10,4 +10,5 @@ test -s ~/.alias && . ~/.alias
 #projects
 export PROJECTS_ROOT=~/projects/
 set bell-style none
+export HISTSIZE=10000
 # Sterge END
