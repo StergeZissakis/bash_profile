@@ -3,7 +3,7 @@ set -o vi
 export VISUAL=vim
 export EDITOR="$VISUAL"
 ulimit -c unlimited
-export PS1='[\u@\h]:\w>'
+export PS1='[\t][\u@\h]:\w>'
 
 test -s ~/.alias && . ~/.alias
 
