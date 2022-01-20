@@ -1,7 +1,7 @@
-set tabstop=2
-set softtabstop=2
-set shiftwidth=2
-"set expandtab
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set expandtab
 "Sterge
 "set tabstop=2
 "set shiftwidth=2
@@ -9,7 +9,7 @@ set backspace=2
 "set noexpandtab
 set smarttab
 "set expandtab
-set ts=2
+set ts=4
 set autoindent
 set ttyfast
 set textauto
