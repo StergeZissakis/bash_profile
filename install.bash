@@ -1,4 +1,5 @@
 #!/bin/bash
+./uninstall.bash
 ln -sf bash_profile/.alias ~
 cp .netrc ~
 ln -sf bash_profile/.screenrc ~
