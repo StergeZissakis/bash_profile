@@ -121,11 +121,13 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# Sterge
+# Sterge BEGIN
 set -o vi
+export VISUAL=vim
+export EDITOR="$VISUAL"
 ulimit -c unlimited
 test -s ~/.alias && . ~/.alias
 
-export VISUAL=vim
-export EDITOR=$VISAL
-
+#projects
+export PROJECTS_ROOT=~/projects/
+# Sterge END
