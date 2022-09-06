@@ -22,6 +22,7 @@ set hlsearch
 filetype plugin on
 filetype indent on
 syntax on
+set t_u7=
 set incsearch
 let Tlist_Ctags_Cmd="/usr/bin/ctags-exuberant"
 "source ~/cscope/cscope_maps.vim
@@ -32,6 +33,7 @@ set laststatus=2
 set ai
 filetype on
 au Filetype htm,php,asp,html,xml,xsl source ~/.vim/plugin/closetag.vim
+set belloff=all
 
 let g:netrw_ftp_cmd="ftp"
 
