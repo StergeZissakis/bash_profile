@@ -6,7 +6,7 @@ defscrollback 10000
 altscreen on
 vbell off
 shelltitle '] |bash'
-caption always "%?%F%{= Kw}%:%{=u kR}%? %h %-024=%{-b} %C%a %D %d %M %Y%{= db}"
+caption always "%?%F%{= Kw}%:%{=u kR}%? %h %-024=%{-b} %c %D %d %M %Y%{= db}"
 hardstatus alwayslastline
 hardstatus string "%{= kR} %-Lw%{=b kw} %n%f %t %{-}%+Lw %=%{= dd}"
 nethack off
