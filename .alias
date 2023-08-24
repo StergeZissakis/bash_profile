@@ -1,4 +1,5 @@
 #Utils
+alias vi='vim'
 alias iv='vim'
 alias ci='vim'
 alias ll='ls -l'
